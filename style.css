@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+main {
   background-color: #f4d04e;
   display: flex;
 
@@ -16,6 +16,7 @@ body {
   font-family: "Figtree", sans-serif;
   perspective: 7cm;
 }
+
 .blog-container {
   width: 100%;
   max-width: 384px;
@@ -31,7 +32,7 @@ body {
   animation-direction: reverse;
 }
 
-.blog-container:hover {
+.blog-container:hover  {
   animation: active 2s ease-in-out forwards;
 }
 
@@ -94,6 +95,10 @@ span {
   text-decoration: none;
   color: black;
   transition: 0.3s ease;
+}
+
+.title-link:hover {
+  color: #f4d04e;
 }
 
 p {
