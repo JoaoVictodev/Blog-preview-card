@@ -94,10 +94,6 @@ span {
   color: black;
   transition: 0.3s ease;
 }
- 
-.title-link:visited {
-  color: #f4d04e;
-} 
 
 p {
   color: hsl(0, 0%, 50%);
