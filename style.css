@@ -25,6 +25,7 @@ body {
   background: white;
   border-radius: 8px;
 
+  border: 2px solid black;
   box-shadow: 8px 8px;
   animation-duration: 1s;
   animation-direction: reverse;
